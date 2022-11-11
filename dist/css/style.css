@@ -1,0 +1,20 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(110, 145, 243);
+}
+
+.employee-card {
+    background-color: rgb(160, 183, 247);
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: square;
+}

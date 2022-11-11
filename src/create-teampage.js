@@ -14,14 +14,14 @@ module.exports = generatePage = (team) => {
 </head>
 <body>
     <header>
-    <h1>Team</h1>
+    <h1>Team Profile List</h1>
     </header>
     <main>`;
     htmlDraft.push(headerHtml);
 
     const managerCard = manager => {
         let managerHtml = ` 
-        <section>
+        <section class="employee-card">
             <h2>Manager: ${manager.name}</h2>
             <ul>
                 <li>Employee ID Number: ${manager.id}</li>
@@ -35,7 +35,7 @@ module.exports = generatePage = (team) => {
 
     const engineerCard = engineer => {
         let engineerHtml = ` 
-        <section>
+        <section class="employee-card">
             <h2>Engineer: ${engineer.name}</h2>
             <ul>
                 <li>Employee ID Number: ${engineer.id}</li>
@@ -48,7 +48,7 @@ module.exports = generatePage = (team) => {
     }
     const internCard = intern => {
         let internHtml = ` 
-        <section>
+        <section class="employee-card">
             <h2>Intern: ${intern.name}</h2>
             <ul>
                 <li>Employee ID Number: ${intern.id}</li>
