@@ -6,7 +6,7 @@ const generatePage = require('./src/create-teampage');
 const fs = require("fs");
 const path = require("path");
 const OUTPUT_DIR = path.resolve(__dirname, "output")
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+const outputPath = path.join(OUTPUT_DIR, "team-profile-list.html");
 const team = [];
 
 const managerInput = () => {
