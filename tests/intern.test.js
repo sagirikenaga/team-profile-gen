@@ -1,5 +1,5 @@
 const Intern = require('../lib/intern');
-const intern = new Itern('sagiri','111','sagirikenaga@icloud.com', 'University of Toronto');
+const intern = new Intern('sagiri','111','sagirikenaga@icloud.com', 'University of Toronto');
 
 test('testing the input values for Intern', () => {
     expect(intern.name).toBe('sagiri');
